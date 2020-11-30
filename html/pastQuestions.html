@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lecture notes</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+   </head>
+<body>
+    <section class="container-fluid">
+        <div class="navbar" style="font-size: 20px;padding:1rem">
+            <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6  col-xl-6 p-3" >
+                <a href="../index.html"><p> greenbrain</p></a>
+            </div>
+            <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6  col-xl-6" style="text-align: right;">
+                <a href="signIn.html"><button style="padding:0.1rem 1.5rem 0.1rem 1.5rem; border-radius: 5px; border:1px solid rgba(0, 0, 0, 0.301); font-size: 16px;">Login</button></a>
+            </div>
+        </div>
+        <div class="container-fluid m-0" style="background-color: #F3FBFF; border:0.5px solid rgba(0, 0, 0, 0.178)">
+            <nav>
+                <div class="nav nav-tabs col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 text-center" id="nav-tab" role="tablist">
+                  <div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-xs-4"><a class="nav-link"  data-toggle="tab" href="lectureNotes.html" role="tab" aria-controls="nav-home" aria-selected="true">Lecture Notes</a></div>
+                  <div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-xs-4"><a class="nav-link active"  data-toggle="tab" href="pastQuestions.html" role="tab" aria-controls="nav-profile" aria-selected="false">Past Question</a></div>
+                  <div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 col-xs-4"><a class="nav-link"  data-toggle="tab" href="projectTopics.html" role="tab" aria-controls="nav-contact" aria-selected="false">Project Topics</a></div>
+                </div>
+            </nav>
+            <div class="dropdown" style="margin:1rem 0 0 1rem">
+                <button onclick="myFunction()" class="dropbtn"><img src="../images/filter.svg">  <h8>Filter by Course</h8></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" id="myInput" onkeyup="filterFunction()">
+                    <a href="#accounting">Acounting</a>
+                    <a href="#biology">Biology</a>
+                    <a href="#sociology">sociology</a>
+                    <a href="#economics">economics</a>
+                    <a href="#physics">physics</a>
+                    <a href="#chemistry">chemistry</a>
+                    <a href="#mathematics">mathematics</a>
+                </div>                      
+            </div>
+            <div class="row col-lg-12">
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: blue; color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 308: complex analysis II</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2001/2002 session</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 05px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #872663;color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 308: complex analysis II</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2010/2011 session</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color:#486190; color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 308: complex analysis II</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2012/2013 session</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color:#142433; color:white">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 308: complex analysis II</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2016/2017 session</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <br>
+            <div class="row col-lg-12">
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #958405; color: white;">
+                            <h6>math and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 310: discrete mathematics</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2010/2011 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 05px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #803259;color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 310: discrete mathematics</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2013/2014 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #958405; color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 310: discrete mathematics</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2016/2017 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #260242; color:white">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 304: operation research</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2010/2011 session</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <br>
+            <div class="row col-lg-12">
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #958405; color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 304: operation research</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2011/20112 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 05px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #803259;color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 304: operation research</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2015/2016 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #958405; color: white;">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 304: operation research</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2013/2014 session</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center" style="margin-left:0 0 0 5px; border-radius:10px;">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #260242; color:white">
+                            <h6>maths and statistics</h6>
+                        </div>
+                        <div class="card-body" style="padding:1rem 0 0 0">
+                            <p>MTH 302: mathematical methods</p>
+                            <p style="font-size: x-small;">University of Abuja</p>
+                            <p>300level</p>
+                            <p>2010/2011 session</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        
+                  
+        </div>    
+       
+    </section>
+    <script>
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+    </script>
+</body>
+</html>
